@@ -165,7 +165,7 @@ body{
     overflow: hidden;
     transition: all 0.6s ease-in-out;
     border-radius: 150px 0 0 100px;
-    z-index: 1000;
+    z-index: 900;
 }
 
 .container.active .toggle-container{
@@ -271,8 +271,8 @@ body{
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
+                    <h1>Hello student!</h1>
+                    <p>Inscrivez-vous avec vos informations personnelles pour accéder à toutes les fonctionnalités de la plateforme.</p>
                 </div>
             </div>
         </div>

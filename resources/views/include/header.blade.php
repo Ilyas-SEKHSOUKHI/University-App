@@ -49,7 +49,7 @@
     .nav-link{
       /* float:right;*/
       /* margin-top:0px;*/
-       margin-left:650px;
+       margin-left:550px;
     }
     .link{
       background-color: #2c3e50;

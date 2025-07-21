@@ -156,7 +156,7 @@ body{
     overflow: hidden;
     transition: all 0.6s ease-in-out;
     border-radius: 150px 0 0 100px;
-    z-index: 1000;
+    z-index: 900;
 }
 
 .container.active .toggle-container{
@@ -258,7 +258,7 @@ body{
             <div class="toggle">
                 <div class="toggle-panel toggle-right">
                     <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
+                    <p>Veuillez saisir vos informations personnelles pour accéder à toutes les fonctionnalités de la plateforme universitaire.</p>
                 </div>
             </div>
         </div>
