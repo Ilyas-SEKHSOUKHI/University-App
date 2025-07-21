@@ -49,8 +49,19 @@
     .nav-link{
       /* float:right;*/
       /* margin-top:0px;*/
-       margin-left:700px;
+       margin-left:650px;
     }
+    .link{
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      marging-right: 10px;
+      font-size: 16px;
+
+    }
+
   </style>
 
 
@@ -84,11 +95,11 @@
  <!--   <div class="collapse navbar-collapse" id="navbarText">-->
 
         @if(auth()->check())        
-          <a  aria-current="page" href="{{route('home')}}" >Home</a>        
-          <a  href="{{route('logout')}}" >Logout</a>      
+          <a class="link"  aria-current="page" href="{{route('home')}}" >Home</a>        
+          <a class="link" href="{{route('logout')}}" >Logout</a>      
         @else     
-          <a href="{{route('login')}}" >Login</a> 
-          <a  href="{{route('registration')}}" >Registration</a>
+          <a class="link"href="{{route('login')}}" >Login</a> 
+          <a class="link" href="{{route('registration')}}" >Registration</a>
         @endif
  <!--    </div>
   </div>   -->
