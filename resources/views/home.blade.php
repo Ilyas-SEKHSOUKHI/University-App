@@ -80,7 +80,7 @@
       justify-content: space-between;
       gap: 20px;
       margin:50px;
-      margin-left:100px;
+      margin-left:50px;
     }
 
     .card {
@@ -157,6 +157,11 @@ button.hidden{
     img{
       width: 15%;
       margin-left:105px;
+    }
+    .main-content{
+      background-color: rgba(255, 255, 255, 0.57);;
+      border-radius: 8px;
+      
     }
   </style>
 </head>
