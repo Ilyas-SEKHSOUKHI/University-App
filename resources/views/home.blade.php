@@ -9,7 +9,7 @@
     <ul>
       <li><a href="{{route('home')}}">Accueil</a></li>
       <li><a href="{{route('cours')}}">Cours</a></li>
-      <li><a href="{{route('notes')}}">Notes</a></li>
+      <!--<li><a href="{{route('notes')}}">Notes</a></li>-->
       <li><a href="{{route('profile')}}">Profil</a></li>
       <li><a href="{{route('messagerie')}}">Messagerie</a></li>
       <li><a href="{{route('DocDemande')}}">Demande de document</a></li>
